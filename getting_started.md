@@ -23,9 +23,22 @@ Clone the repository:
 https://github.com/<your-repo>/nemotron-70b.git
 - cd nemotron-70b
 '''
-🧑‍💻 Using the Model
-🔄 Loading NemoTron-70B
-You can load and test NemoTron-70B using NVIDIA NeMo:
+4. **🧑‍💻 Using the Model**
+- 🔄 Loading NemoTron-70B
+- You can load and test NemoTron-70B using NVIDIA NeMo:
+```bash
+from nemo.collections.nlp.models import MegatronGPTModel
+
+# Load pre-trained model
+model = MegatronGPTModel.from_pretrained("nemotron-70b")
+
+# Generate text
+output = model.generate("Explain the importance of AI in medicine.")
+print(output)
+
+
+
+
 
 
 
