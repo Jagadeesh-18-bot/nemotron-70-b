@@ -19,8 +19,13 @@ This guide will help you set up and use the **NemoTron-70B** model in your proje
    pip install torch transformers nvidia-pyindex nvidia-nemo
 ⚙️ Installation
 Clone the repository:
-git clone https://github.com/<your-repo>/nemotron-70b.git
+- git clone 
+https://github.com/<your-repo>/nemotron-70b.git
 - cd nemotron-70b
+'''
+🧑‍💻 Using the Model
+🔄 Loading NemoTron-70B
+You can load and test NemoTron-70B using NVIDIA NeMo:
 
 
 
